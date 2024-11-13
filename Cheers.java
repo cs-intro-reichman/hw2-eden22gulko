@@ -1,7 +1,7 @@
 // Prints a crowd cheering output.
 public class Cheers {
         public static void main(String[] args) {
-	    String name = args[0];
+	    String name = args[0].toUpperCase();
             int number = Integer.parseInt(args[1]);
             String no = "AEFHILMNORSX";
             
